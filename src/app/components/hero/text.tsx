@@ -67,7 +67,7 @@ const Text = () => {
         </div>
 
         <button className="button-glow mt-6 bg-[#8d2fe6] font-[8px] sm:font-medium rounded-[15px] items-center flex p-2 sm:p-2">
-          <span className=" hidden sm:block bg-white rounded-full p-1 sm:p-2 ">
+          <span className=" bg-white rounded-full p-1 sm:p-2 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
