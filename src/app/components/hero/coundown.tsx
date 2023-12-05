@@ -15,7 +15,7 @@ const renderer: CountdownRendererFn = ({
   } else {
     // Render the countdown elements
     return (
-      <div className="text-[24px] sm:text-[28px] gap-1 sm:gap-3 flex flex-col sm:flex-row  leading-snug font-bold font-Orbitron">
+      <div className="text-[18px] sm:text-[28px] gap-1 sm:gap-3 flex flex-col sm:flex-row  leading-snug font-bold font-Orbitron">
         <span> {days} days, </span>
         <span> {hours} hours, </span>
         <span> {minutes} minutes, </span>

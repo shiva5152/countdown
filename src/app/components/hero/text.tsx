@@ -40,21 +40,26 @@ const Text = () => {
         <p className="text-gray-200 hidden sm:block border-[0.1px] border-gray-400 sm:w-fit w-full text-center  mb-[1rem] p-2 sm:p-3 bg-[#19131e] sm:px-4 rounded-lg ">
           Free and secure trading terminal
         </p>
-        <div className="text-[20px] sm:text-[48px] sm:max-w-[75%] leading-snug font-bold font-Orbitron">
-          <h1 id="title-1" className="text-grad">
+        <div className="text-[28px] sm:text-[48px] sm:max-w-[75%] leading-snug font-bold font-Orbitron">
+          <div id="title-1" className="text-grad">
             Paving The Way To
-          </h1>
-          <h1 id="title-2" className="text-[#af46c9] flex  gap-2">
+          </div>
+          <div
+            id="title-2"
+            className="text-[#af46c9] flex flex-col sm:flex-row  gap-2"
+          >
             {/* Solve problem<span className="text-[#7d3cba]">.</span> */}
-            Intelligent Crypto
-            <Typewriter
-              options={{
-                strings: ["Trading!"],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-          </h1>
+            <span>Intelligent Crypto</span>
+            <span className=" block">
+              <Typewriter
+                options={{
+                  strings: ["Trading!"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </span>
+          </div>
           <p className="text-[14px] md:text-[18px]  mt-6 leading-snug font-bold font-Orbitron">
             Ace perpetual trading and stay ahead in the dynamic world of
             cryptocurrencies with FLEXBOT.
