@@ -7,15 +7,10 @@ export default function Home() {
       <Hero />
 
       <img
-        className="absolute sm:h-[1000px] sm:bottom-[-30%] sm:right-[0] bottom-[-10%] right-[-15%]"
+        className="absolute sm:h-[1000px] sm:bottom-[-30%] sm:right-[0] bottom-[-20%] right-[-20%]"
         src={"/image/robo.png"}
         alt=""
       />
-      {/* <img
-        className="absolute  sm:h-[1200px] sm:bottom-[-50%] sm:right-[-10%] top-[10%] right-[-15%] "
-        src={"/image/robo.png"}
-        alt=""
-      /> */}
     </section>
   );
 }

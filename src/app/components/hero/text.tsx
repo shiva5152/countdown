@@ -66,8 +66,8 @@ const Text = () => {
           </p>
         </div>
 
-        <button className="button-glow mt-6 bg-[#8d2fe6] font-medium rounded-[15px] items-center  flex p-1 sm:p-2">
-          <span className=" bg-white rounded-full p-2">
+        <button className="button-glow mt-6 bg-[#8d2fe6] font-[8px] sm:font-medium rounded-[15px] items-center flex p-2 sm:p-2">
+          <span className=" bg-white rounded-full p-1 sm:p-2 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -83,7 +83,7 @@ const Text = () => {
               />
             </svg>
           </span>{" "}
-          <span className="px-4">Coming Soon</span>
+          <span className="px-1 sm:px-4">Coming Soon</span>
         </button>
 
         <MyCountdown />

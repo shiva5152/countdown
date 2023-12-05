@@ -37,6 +37,11 @@ const MyCountdown = () => {
       </h1> */}
       {/* Use the Countdown component with the target date and renderer function */}
       <Countdown date={targetDate} renderer={renderer} />
+      {/* <img
+        className="absolute top-[-100%] right-[-15%] "
+        src={"/image/robo.png"}
+        alt=""
+      /> */}
     </div>
   );
 };
