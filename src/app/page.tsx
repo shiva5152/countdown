@@ -7,7 +7,7 @@ export default function Home() {
       <Hero />
 
       <img
-        className="absolute max-h-[500px] sm:bottom-[0] sm:right-[5%] bottom-[-20%] right-[0]"
+        className="absolute max-h-[50vh] sm:max-h-[75vh] bottom-[0] right-[10px] sm:right-[5%]"
         src={"/image/robo-1.png"}
         alt=""
       />
