@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="">
       <Navbar />
       <Text />
-      <Buttons />
+      {/* <Buttons /> */}
     </div>
   );
 };

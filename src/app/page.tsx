@@ -1,9 +1,20 @@
 import Hero from "./components/hero";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="_hero relative min-h-screen   p-[20px] md:py-12  md:px-24">
+    <section className="min-h-screen _hero p-[20px] md:py-12  md:px-24 relative  overflow-x-hidden overflow-y-hidden ">
       <Hero />
-    </main>
+      <img
+        className="absolute sm:h-[1200px] sm:bottom-[-50%] sm:right-[-10%] bottom-[-10%] right-[-15%]"
+        src={"/image/robo.png"}
+        alt=""
+      />
+      {/* <img
+        className="absolute  sm:h-[1200px] sm:bottom-[-50%] sm:right-[-10%] top-[10%] right-[-15%] "
+        src={"/image/robo.png"}
+        alt=""
+      /> */}
+    </section>
   );
 }

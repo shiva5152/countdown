@@ -56,7 +56,7 @@ const Buttons = () => {
         </div> */}
         {/* <div className=" absolute blue-gradient -z-10 w-[100px] h-[100px]"></div> */}
       </div>
-      <div className=" z-0 absolute top-[50%] left-[20%] hero-glow w-0 h-0"></div>
+      {/* <div className=" z-0 absolute top-[50%] left-[20%] hero-glow w-0 h-0"></div> */}
     </div>
   );
 };

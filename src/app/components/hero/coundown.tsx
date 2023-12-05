@@ -31,10 +31,10 @@ const MyCountdown = () => {
   // Define the renderer function to customize the appearance of the countdown
 
   return (
-    <div className=" relative z-10">
-      <h1 className="text-[36px] md:text-[64px] leading-snug font-bold font-Orbitron">
+    <div className=" mt-12 relative z-10">
+      {/* <h1 className="text-[36px] md:text-[64px] leading-snug font-bold font-Orbitron">
         Coming soon
-      </h1>
+      </h1> */}
       {/* Use the Countdown component with the target date and renderer function */}
       <Countdown date={targetDate} renderer={renderer} />
     </div>

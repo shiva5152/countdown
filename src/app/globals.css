@@ -5,16 +5,14 @@
 @tailwind utilities;
 
 body {
-  background-color: #111927;
-  background-image: radial-gradient(
-      at 47% 33%,
-      hsl(162, 77%, 40%) 0,
-      transparent 59%
-    ),
-    radial-gradient(at 82% 65%, hsl(218, 39%, 11%) 0, transparent 55%);
+  background-image: url("/image/bg-gradident.jpeg");
+  background-size: cover; /* Adjust to 'contain' or other values as needed */
+  background-position: center center; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-color: white; /* Adjust to your preferred color */
 }
 ._hero {
-  background-color: #19131e;
+  /* background-color: #19131e; */
   color: white !important;
 }
 .gradient-circle {
@@ -22,17 +20,11 @@ body {
   -moz-box-shadow: 0px 0px 300px 197px rgba(109, 78, 212, 0.84);
   box-shadow: 0px 0px 300px 197px rgba(109, 78, 212, 0.84);
 }
-.blue-gradient {
-  /* -webkit-box-shadow: 0px 0px 300px 200px rgba(3, 48, 76, 1);
+/* .blue-gradient {
+  -webkit-box-shadow: 0px 0px 300px 200px rgba(3, 48, 76, 1);
   -moz-box-shadow: 0px 0px 300px 200px rgba(3, 48, 76, 1);
-  box-shadow: 0px 0px 300px 200px rgba(3, 48, 76, 1); */
-  background: rgb(9, 9, 121);
-  background: radial-gradient(
-    circle,
-    rgba(9, 9, 121, 0.8100490196078431) 0%,
-    rgba(9, 9, 121, 0.241421568627451) 35%
-  );
-}
+  box-shadow: 0px 0px 300px 200px rgba(3, 48, 76, 1);
+} */
 .blue-box {
   -webkit-filter: blur(100px);
   background-color: #3304cc;
@@ -157,4 +149,12 @@ body {
   -webkit-box-shadow: 0px 0px 300px 200px rgba(133, 137, 255, 0.5);
   -moz-box-shadow: 0px 0px 300px 200px rgba(133, 137, 255, 0.5);
   box-shadow: 0px 0px 300px 120px rgba(133, 137, 255, 0.8);
+}
+
+.text-grad {
+  background: #c3b1e3;
+  background: linear-gradient(to bottom, #c3b1e3 0%, #b566d0 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

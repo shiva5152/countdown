@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="py-12 pt-0 relative md:w-[100%]  z-50 flex justify-between">
+    <div className="py-12 pt-0 relative md:w-[100%]  z-50 flex items-start justify-between">
       <p className=" text-[1.2rem] font-semibold">Flexbot</p>
       {/* <div className=" flex gap-48 ">
         <p className="flex gap-4 font-semibold">
@@ -59,6 +59,25 @@ const Navbar = () => {
           </span>
         </button>
       </div> */}
+      <button className="button-glow sm:flex hidden bg-[#8d2fe6] font-medium rounded-[15px] items-center  p-2">
+        <span className=" bg-white rounded-full p-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="#b782fc"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+            />
+          </svg>
+        </span>{" "}
+        <span className="px-4">Coming Soon</span>
+      </button>
     </div>
   );
 };
